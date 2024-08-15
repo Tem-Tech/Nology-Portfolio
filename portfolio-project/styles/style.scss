@@ -1,0 +1,20 @@
+@import "./icons";
+
+
+$backgroundClr: #1C1A27;
+$shadowClr: #2B2835;
+$textClr: #C6C6C9;
+$headingClr: #ffff;
+$highlightClr: #D3FF56;
+
+
+body{background: $backgroundClr;
+    color: $textClr;
+   font: inter;
+    h1, h2{font: cormorant;}
+    .highlight{color: $highlightClr;}
+.heading{color: $headingClr;}}
+
+header{
+display: flex;
+justify-content: center;}

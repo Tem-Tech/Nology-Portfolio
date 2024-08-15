@@ -1,0 +1,28 @@
+/* Group 36 */
+icons {
+  position: absolute;
+  width: 1180px;
+  height: 112px;
+  left: 274px;
+  top: 1392px;
+}
+
+body {
+  background: #1C1A27;
+  color: #C6C6C9;
+  font: inter;
+}
+body h1, body h2 {
+  font: cormorant;
+}
+body .highlight {
+  color: #D3FF56;
+}
+body .heading {
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
