@@ -1,19 +1,34 @@
-@import "./_icons";
+@import "./skills";
 
-$backgroundClr: #1C1A27;
+$backgroundClr: #1D1A27;
 $shadowClr: #2B2835;
 $textClr: #C6C6C9;
 $headingClr: #ffff;
 $highlightClr: #D3FF56;
 
-
-body{background: $backgroundClr;
+body {
+    background: $backgroundClr;
     color: $textClr;
-   font: inter;
-    h1, h2{font: cormorant;}
-    .highlight{color: $highlightClr;}
-.heading{color: $headingClr;}}
 
-header{
-display: flex;
-justify-content: center;}
+    h1,
+    h2 {
+        font-family: "Cormorant", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .highlight {
+        color: $highlightClr;
+    }
+
+    .heading {
+        color: $headingClr;
+    }
+    }
+
+header {
+    display: flex;
+    justify-content: center;
+}
+section{margin: 3em 3em;}
