@@ -1,0 +1,37 @@
+@import "./variables";
+
+.navbar {
+    ul {
+        list-style-type: none;
+        float: right;
+
+    }
+
+    li {
+        float: left;
+        color: $headingClr;
+        font-family: $headingFont;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.38px;
+
+    }
+
+    a {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 1em;
+        color: $headingClr;
+
+        &:hover {
+
+            color: $highlightClr;
+        }
+
+        &:visited {
+            text-decoration: none;
+        }
+    }
+
+}

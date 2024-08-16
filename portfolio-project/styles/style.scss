@@ -1,10 +1,8 @@
+@import "./variables";
 @import "./skills";
+@import "./nav";
 
-$backgroundClr: #1D1A27;
-$shadowClr: #2B2835;
-$textClr: #C6C6C9;
-$headingClr: #ffff;
-$highlightClr: #D3FF56;
+
 
 body {
     background: $backgroundClr;
@@ -12,7 +10,7 @@ body {
 
     h1,
     h2 {
-        font-family: "Cormorant", serif;
+        font-family:$headingFont;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
