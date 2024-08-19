@@ -2,15 +2,18 @@
 @import "./skills";
 @import "./nav";
 
-
-
 body {
+    background-color: #E5E4E4;
+}
+
+.content {
     background: $backgroundClr;
     color: $textClr;
+    border-radius: 10px;
 
     h1,
     h2 {
-        font-family:$headingFont;
+        font-family: $headingFont;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -23,10 +26,75 @@ body {
     .heading {
         color: $headingClr;
     }
+
+    aside {
+        background-color: $highlightClr;
+        right: 0;
+        position: fixed;
+        margin-top: 8em;
+
+        svg {
+            color: transparent;
+            margin: 2em;
+        }
     }
+}
 
 header {
+    margin: 2em;
+}
+
+#home {
     display: flex;
     justify-content: center;
+
 }
-section{margin: 3em 3em;}
+.fig{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    figure {
+        
+        img {
+            width: 397.38px;
+            height: 671.33px;
+            top: 235px;
+            left: 1016px;
+            gap: 0px;
+            opacity: 0px;
+            filter: grayscale(100%);
+        }
+    }
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    .projectsCard {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: left;
+        
+
+    }
+}
+
+footer {
+    background-color: $highlightClr;
+    color: $backgroundClr;
+    border-radius: 10px;
+
+
+    p {
+        right: 2;
+    }
+
+    h2 {
+        left: 2;
+    }
+}
