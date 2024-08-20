@@ -1,0 +1,33 @@
+#contact {
+    background-color: #2E2D38;
+    max-width: 88em;
+    height: 35em;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+
+    h2 {
+        font-size: 3em;
+        line-height: 5em;
+        margin: auto;
+    }
+
+    p {
+        font-size: 1em;
+        text-align: center;
+        width: 578px;
+        height: 78px;
+        line-height: 2em;
+
+    }
+    button{
+        background-color:#474650;
+        padding: 1.5em;
+        border-radius: 55px;
+        gap: 10px;
+        line-height: 2em;
+    }
+}

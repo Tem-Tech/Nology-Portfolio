@@ -93,6 +93,36 @@ nav:hover {
   text-decoration: none;
 }
 
+#contact {
+  background-color: #2E2D38;
+  max-width: 88em;
+  height: 35em;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+#contact h2 {
+  font-size: 3em;
+  line-height: 5em;
+  margin: auto;
+}
+#contact p {
+  font-size: 1em;
+  text-align: center;
+  width: 578px;
+  height: 78px;
+  line-height: 2em;
+}
+#contact button {
+  background-color: #474650;
+  padding: 1.5em;
+  border-radius: 55px;
+  gap: 10px;
+  line-height: 2em;
+}
+
 body {
   background-color: #E5E4E4;
 }
@@ -130,9 +160,19 @@ header {
   margin: 2em;
 }
 
-#home {
+.home {
   display: flex;
   justify-content: center;
+}
+.home h1 {
+  font-family: Cormorant;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48.44px;
+  text-align: left;
+}
+.home h1 .bold {
+  font-weight: 500;
 }
 
 .fig {
