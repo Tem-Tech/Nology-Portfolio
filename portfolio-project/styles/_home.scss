@@ -1,0 +1,54 @@
+@import "./variables";
+
+.home {
+    .hero {
+        margin: 2em 15em 5em 5em;
+        display: flex;
+        flex-direction: row;
+
+        &__item {
+            margin-top: em;
+        }
+
+        h1 {
+            font-family: Cormorant;
+            font-size: 120px;
+            font-weight: 400;
+            line-height: 80px;
+            text-align: left;
+            text-transform: capitalize;
+            font-weight: bolder;
+
+
+        }
+
+        &__img {
+            width: 30em;
+            height: 37em;
+            filter: grayscale(100%);
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            border-radius: 100%;
+            opacity: 0.8;
+        }
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    aside {
+        background-color: $highlightClr;
+        right: 0;
+        position: fixed;
+        margin-top: 7em;
+        border-radius: 5px;
+        z-index: 2;
+
+        svg {
+            color: transparent;
+            margin: 1.5em;
+        }
+    }
+
+}

@@ -1,0 +1,21 @@
+#portfolio .project {
+  display: grid;
+  max-width: 80%;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto auto;
+  gap: 25px;
+}
+#portfolio .project__card {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: left;
+  width: auto;
+}
+#portfolio .project__card:hover {
+  transition: transform 0.55s, visibility 0.55s ease-in-out;
+  transform: scale(1.05);
+}
+#portfolio .project__link {
+  color: #C6C6C9;
+}

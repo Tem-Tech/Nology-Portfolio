@@ -51,11 +51,17 @@
   height: 67px;
 }
 
-nav ul {
+header {
+  margin: 2em;
+}
+header nav {
+  margin-bottom: 5em;
+}
+header nav ul {
   list-style-type: none;
   float: right;
 }
-nav li {
+header nav li {
   float: left;
   color: white;
   font-family: "Cormorant", serif;
@@ -64,23 +70,23 @@ nav li {
   line-height: 19.38px;
   margin-right: 4em;
 }
-nav li .button {
+header nav li .button {
   color: #D3FF56;
 }
-nav a {
+header nav a {
   text-decoration: none;
   display: block;
   text-align: center;
   padding: 1em;
   color: white;
 }
-nav a:hover {
+header nav a:hover {
   color: #D3FF56;
 }
-nav a:visited {
+header nav a:visited {
   text-decoration: none;
 }
-nav button {
+header nav button {
   border: 0.5px solid #D3FF56;
   border-radius: 2px;
   background-color: transparent;
@@ -89,31 +95,38 @@ nav button {
   font-family: "Cormorant", serif;
   font-size: 16px;
 }
-nav:hover {
+header nav:hover {
   text-decoration: none;
 }
 
 #contact {
-  background-color: #2E2D38;
+  background-color: rgba(46, 45, 56, 0.4235294118);
+  width: 80%;
   max-width: 88em;
-  height: 35em;
+  height: auto;
   text-align: center;
   align-items: center;
   display: flex;
   flex-direction: column;
   gap: 0;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 #contact h2 {
   font-size: 3em;
-  line-height: 5em;
-  margin: auto;
+  line-height: 4em;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 0;
+  font-family: "Cormorant", serif;
 }
 #contact p {
   font-size: 1em;
   text-align: center;
   width: 578px;
   height: 78px;
-  line-height: 2em;
+  line-height: 1.5em;
+  margin-top: 0.5em;
 }
 #contact button {
   background-color: #474650;
@@ -123,14 +136,79 @@ nav:hover {
   line-height: 2em;
 }
 
+#portfolio .project {
+  display: grid;
+  max-width: 80%;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto auto;
+  gap: 25px;
+}
+#portfolio .project__card {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: left;
+  width: auto;
+}
+#portfolio .project__card:hover {
+  transition: transform 0.55s, visibility 0.55s ease-in-out;
+  transform: scale(1.05);
+}
+#portfolio .project__link {
+  color: #C6C6C9;
+}
+
+.home .hero {
+  margin: 2em 15em 5em 5em;
+  display: flex;
+  flex-direction: row;
+}
+.home .hero__item {
+  margin-top: em;
+}
+.home .hero h1 {
+  font-family: Cormorant;
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 80px;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.home .hero__img {
+  width: 30em;
+  height: 37em;
+  filter: grayscale(100%);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 100%;
+  opacity: 0.8;
+}
+.home .hero__text {
+  display: flex;
+  flex-direction: column;
+}
+.home aside {
+  background-color: #D3FF56;
+  right: 0;
+  position: fixed;
+  margin-top: 7em;
+  border-radius: 5px;
+  z-index: 2;
+}
+.home aside svg {
+  color: transparent;
+  margin: 1.5em;
+}
+
 body {
   background-color: #E5E4E4;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .content {
-  background: #1D1A27;
+  background: rgba(29, 26, 39, 0.7058823529);
   color: #C6C6C9;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .content h1,
 .content h2 {
@@ -145,73 +223,20 @@ body {
 .content .heading {
   color: white;
 }
-.content aside {
-  background-color: #D3FF56;
-  right: 0;
-  position: fixed;
-  margin-top: 8em;
-}
-.content aside svg {
-  color: transparent;
-  margin: 2em;
-}
 
 header {
-  margin: 2em;
-}
-
-.home {
-  display: flex;
-  justify-content: center;
-}
-.home h1 {
-  font-family: Cormorant;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 48.44px;
-  text-align: left;
-}
-.home h1 .bold {
-  font-weight: 500;
-}
-
-.fig {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: end;
-}
-.fig figure img {
-  width: 397.38px;
-  height: 671.33px;
-  top: 235px;
-  left: 1016px;
-  gap: 0px;
-  opacity: 0px;
-  filter: grayscale(100%);
-}
-
-.projects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.projects .projectsCard {
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 22px;
-  text-align: left;
+  margin: 5em;
 }
 
 footer {
   background-color: #D3FF56;
-  color: #1D1A27;
+  color: rgba(29, 26, 39, 0.7058823529);
+  text-align: center;
+  padding: 1rem;
   border-radius: 10px;
+  margin: 1em;
 }
-footer p {
-  right: 2;
-}
-footer h2 {
-  left: 2;
+
+section {
+  margin: 5em;
 }/*# sourceMappingURL=style.css.map */

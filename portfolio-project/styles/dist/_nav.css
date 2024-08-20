@@ -1,0 +1,47 @@
+header {
+  margin: 2em;
+}
+header nav {
+  margin-bottom: 5em;
+}
+header nav ul {
+  list-style-type: none;
+  float: right;
+}
+header nav li {
+  float: left;
+  color: #ffff;
+  font-family: "Cormorant", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.38px;
+  margin-right: 4em;
+}
+header nav li .button {
+  color: #D3FF56;
+}
+header nav a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 1em;
+  color: #ffff;
+}
+header nav a:hover {
+  color: #D3FF56;
+}
+header nav a:visited {
+  text-decoration: none;
+}
+header nav button {
+  border: 0.5px solid #D3FF56;
+  border-radius: 2px;
+  background-color: transparent;
+  padding: 0em 1em 0em 1em;
+  margin: 0 auto;
+  font-family: "Cormorant", serif;
+  font-size: 16px;
+}
+header nav:hover {
+  text-decoration: none;
+}
