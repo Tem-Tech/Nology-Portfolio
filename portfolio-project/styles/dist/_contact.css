@@ -1,5 +1,5 @@
 #contact {
-  background-color: #2e2d386c;
+  background-color: #2e2d384b;
   width: 80%;
   max-width: 88em;
   height: auto;
@@ -22,8 +22,8 @@
 #contact p {
   font-size: 1em;
   text-align: center;
-  width: 578px;
-  height: 78px;
+  width: 25em;
+  height: 10em;
   line-height: 1.5em;
   margin-top: 0.5em;
 }

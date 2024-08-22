@@ -1,14 +1,11 @@
 @import "./variables";
 
 header {
-    margin: 2em;
 
     nav {
-        margin-bottom: 5em;
         ul {
             list-style-type: none;
             float: right;
-
         }
 
         li {
@@ -18,8 +15,6 @@ header {
             font-size: 16px;
             font-weight: 400;
             line-height: 19.38px;
-            margin-right: 4em;
-
             .button {
                 color: $highlightClr;
             }
@@ -48,8 +43,7 @@ header {
             border: 0.5px solid $highlightClr;
             border-radius: 2px;
             background-color: transparent;
-            padding: 0em 1em 0em 1em;
-            margin: 0 auto;
+            margin:auto;
             font-family: $headingFont;
             font-size: 16px;
         }
@@ -59,4 +53,15 @@ header {
         }
 
     }
-}
+    @media only screen and (max-width: 600px) {
+        
+      }
+    
+      @media only screen and (max-width: 900px) {
+        
+      }
+    
+      @media only screen and (min-width: 1200px) {
+        
+    
+}}

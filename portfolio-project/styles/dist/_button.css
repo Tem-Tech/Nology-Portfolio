@@ -1,4 +1,4 @@
-@media screen and (min-width:1440px) {
+/*@media screen and (min-width:1440px) {
     .header {
         padding: 0px 130px 0px 130px;
         &__sub-title {
@@ -29,3 +29,17 @@
         flex-direction: row;
     }
 }
+@media (orientation: portrait) and (max-width: 640px) {  
+    body {    
+      grid-template-rows: 260px 1fr;    
+      grid-template-columns: none;  
+    }  
+    section {    
+      display: block;    
+      margin-left: 30vw;    
+      border-bottom: solid 1px #dbdce1;    
+      border-right: none;    
+      align-items: center;  
+    } 
+  } 
+  */

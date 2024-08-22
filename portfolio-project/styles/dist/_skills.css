@@ -11,6 +11,12 @@
   display: grid;
   grid-template-areas: "myArea myArea myArea . . ";
   margin: 2em 2em 2em 1.3em;
+  /* @media only screen and (max-width:768px) {
+
+     display: grid;
+     grid-auto-flow: column;
+
+   }*/
 }
 .skills h2 {
   font-family: "Cormorant", serif;
@@ -23,6 +29,20 @@
   left: 281px;
   gap: 0px;
   opacity: 0px;
+  /*@media screen and (max-width: 576px) {
+
+    font-size: 30px;
+    line-height: 70px;
+
+
+  }
+
+  @media only screen and (max-width:768px) {
+
+    font-size: 70px;
+    line-height: 90px;
+
+  }*/
 }
 .skills p {
   font-family: "Inter", sans-serif;
@@ -31,21 +51,65 @@
   line-height: 25.6px;
   width: 899px;
   height: 52px;
-}
+  /* @media only screen and (max-width: 576px) {
+     font-size: 10px;
+     width: 300px;
+   }
 
-.skillRow {
-  grid-column-start: 2;
+   @media only screen and (max-width:768px) {
+
+     font-size: 18px;
+     max-width: 400px;
+
+   }*/
+}
+.skills .skillRow {
   display: flex;
   flex-direction: row;
   column-gap: 50px;
   text-align: center;
   width: 180px;
   height: 112px;
+  /* @media screen and (max-width: 576px) {
+
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto auto auto;
+      width: 70vw;
+      gap: 2;
+
+    }
+
+    @media only screen and (max-width:768px) {
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      grid-auto-flow: column;
+      width: 70vw;
+    }
+
+  }
+
+  .icon__image {
+    padding: 1em;
+
+    @media screen and (max-width: 576px) {
+      padding: 0;
+
+    }
+
+  }*/
+  /* @media screen and (max-width: 576px) {
+
+      width: 23px;
+      height: 27px;
+
+
+    }
+
+    @media only screen and (max-width:768px) {}
+  }*/
 }
-.skillRow .icon__image {
-  padding: 1em;
-}
-.skillRow svg {
+.skills .skillRow svg {
   width: 63px;
   height: 67px;
 }

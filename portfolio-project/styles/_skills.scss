@@ -9,15 +9,18 @@
 }
 
 .skills {
-  grid-column-start: 2;
+  /*grid-column-start: 1;
   display: grid;
-  grid-template-areas: "myArea myArea myArea . . ";
-  margin: 2em 2em 2em 1.3em;
+  grid-template-areas: "myArea myArea . . . ";*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2em 5em;
 
   h2 {
     font-family: $headingFont;
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 6em;
+    font-weight: bolder;
     font-style: normal;
     width: 85px;
     height: 48px;
@@ -25,33 +28,43 @@
     left: 281px;
     gap: 0px;
     opacity: 0px;
-  }
+text-transform: uppercase;  }
 
   p {
     font-family: $textFont;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25.6px;
-    width: 899px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    width: 699px;
     height: 52px;
   }
+
 }
 
 .skillRow {
-  grid-column-start: 2;
   display: flex;
   flex-direction: row;
   column-gap: 50px;
   text-align: center;
   width: 180px;
   height: 112px;
+  margin: 4em;
+  align-content: center;
+
 
   .icon__image {
     padding: 1em;
+
+    @media screen and (max-width: 576px) {
+      padding: 0;
+
+    }
+
   }
 
   svg {
     width: 63px;
     height: 67px;
   }
+
+
 }

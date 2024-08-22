@@ -1,26 +1,93 @@
 @import "./variables";
+
 #portfolio {
     .project {
         display: grid;
-        max-width: 80%;
-        grid-template-rows: auto auto;
-        grid-template-columns: auto auto auto auto;
-        gap: 25px;            
+        max-width: 90%;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto auto ;
+        gap: 25px;
+        margin: auto;
+
+        &__card__text {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: baseline;
+            gap: 3em;
+        }
 
         &__card {
             font-size: 15px;
             font-weight: 300;
             line-height: 12px;
-            text-align: left;
-            width: auto;
+        }
+
+
+    }}
+
+    /*  &__card {
+            gap: 2em;
+            opacity: 0px;
 
 
         }
-        &__card:hover{
-            transition: transform .55s, visibility .55s ease-in-out;
-            transform: scale(1.05); 
 
+        &__card__links {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: baseline;
         }
-        &__link{color: $textClr;}
+
+       
+
+            &__link {
+                color: $textClr;
+                text-decoration: none;
+                border: 1px solid orange;
+                padding: 0.5em;
+                height: 45px;
+                width: 140px;
+                text-align: center;
+                line-height: 19px;
+
+                svg {
+                    padding: 0;
+                }
+
+
+            }
+
+            &__card:hover {
+                transition: transform .55s, visibility .55s ease-in-out;
+                transform: scale(1.05);
+
+            }
+
+            &__img {
+                border-radius: 7px;
+                width: 18em;
+                height: 12em;
+                opacity: 0px;
+                max-width: 10vw;
+            }
+
+            &__tag {
+                background: #94939A;
+                opacity: 40%;
+                border-radius: 15px;
+                padding: 0.5em;
+            }
+
+
+
+
+
+            &__link::after {
+                color: $textClr;
+                text-decoration: none;
+            }
+        }
     }
-}
+}*/
