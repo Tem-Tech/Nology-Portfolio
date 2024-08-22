@@ -372,14 +372,13 @@ header nav:hover {
   }
   .skillRow {
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto;
     grid-auto-flow: column;
     width: 70vw;
   }
   #portfolio .project {
-    display: grid;
-    grid-template-columns: auto auto;
-    transform: scale(0.7);
+    display: flex;
+    flex-direction: column;
   }
   #portfolio__card {
     gap: 2em;
@@ -414,9 +413,8 @@ header nav:hover {
     width: 300px;
   }
   .skillRow {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto;
+    display: flex;
+    flex-direction: column;
     width: 70vw;
   }
   .skillRow .icon__img {
