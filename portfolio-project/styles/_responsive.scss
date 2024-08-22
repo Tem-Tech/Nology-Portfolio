@@ -1,18 +1,18 @@
 //for tablets-portrait/desktop
-@media only screen and (max-width:1400px) {}
+@media  screen and (max-width:1400px) {}
 
 //for tablets-landscape
-@media only screen and (max-width:1200px) { .home {
+@media screen and (max-width:1200px) { .home {
     .hero {
         &__img {
-            width: 25em;
-            height: 25em;
+            width: 20em;
+            height: 20em;
         }
     }
 }}
 
 //for tablets
-@media only screen and (max-width:992px){
+@media screen and (max-width:992px){
     .home {
         .hero {
             &__img {
@@ -62,7 +62,7 @@
 }
 
 //for portrait phones
-@media only screen and (max-width:768px) {
+@media screen and (max-width:768px) {
     .home {
         .hero {
             &__img {
@@ -118,7 +118,7 @@
 }
 
 //for phones
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
 
     .home {
         .hero {

@@ -32,10 +32,11 @@ text-transform: uppercase;  }
 
   p {
     font-family: $textFont;
-    font-size: 1.2em;
+    font-size: 1.5em;
     line-height: 1.2em;
     width: 699px;
     height: 52px;
+    font-style: italic;
   }
 
 }
@@ -43,12 +44,11 @@ text-transform: uppercase;  }
 .skillRow {
   display: flex;
   flex-direction: row;
-  column-gap: 50px;
-  text-align: center;
+  column-gap: 0.3em;
   width: 180px;
   height: 112px;
-  margin: 4em;
-  align-content: center;
+  margin: 0 auto 3em auto ;
+  justify-content: center;
 
 
   .icon__image {
