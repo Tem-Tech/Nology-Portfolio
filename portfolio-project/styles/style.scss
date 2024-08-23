@@ -230,9 +230,6 @@ header {
 }
 
 @include tablet-landscape {
-    .navbar {
-        display: none;
-    }
 
     .home {
         .hero {
@@ -329,10 +326,6 @@ header {
     }
 
 }@include laptop {
-    .navbar {
-        display: none;
-    }
-
   
 .home {
     .hero {
