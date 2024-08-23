@@ -8,35 +8,32 @@
   display: grid;
 }
 
-.skills {
-  /*grid-column-start: 1;
-  display: grid;
-  grid-template-areas: "myArea myArea . . . ";*/
+.skillContainer {
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 2em 5em;
+  width: 80%;
 
   h2 {
     font-family: $headingFont;
     font-size: 6em;
     font-weight: bolder;
     font-style: normal;
-    width: 85px;
+    width: 20%;
     height: 48px;
     top: 1209px;
     left: 281px;
     gap: 0px;
-    opacity: 0px;
     text-transform: uppercase;
-    border-bottom: 10px dotted $highlightClr;
   }
 
   p {
     font-family: $textFont;
     font-size: 1.5em;
     line-height: 1.2em;
-    width: 699px;
+    width: 60%;
     height: 52px;
     font-style: italic;
   }
@@ -55,11 +52,6 @@
 
   .icon__image {
     padding: 1em;
-
-    @media screen and (max-width: 576px) {
-      padding: 0;
-
-    }
 
   }
 
